@@ -1,0 +1,54 @@
+html,body{
+    font-family: Arial, sans-serif;
+}
+
+#box2{
+height: 350px;
+width: 300px;
+border: 2px solid black;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+}
+img{
+height: 50px;   
+position: relative; 
+right: -70px;
+margin: 16px;
+}
+input[type="date"],[type="radio"]{
+    border: none;    
+    border-bottom: 2px solid rgb(0, 0, 0);
+    outline: none;
+margin-bottom: 16px;
+padding-bottom:16px ;
+    font-size: 20px;
+
+}
+#btn1{
+    font-size: 20px;    
+background-color:rgb(75,141,248);
+border: 1px solid rgb(75,141,248);
+position: absolute;
+bottom: 0;
+left: 0;
+margin: 15px;
+}
+#btn1 a{
+    text-decoration: none;    
+    color: white;
+}
+#btn2{
+    font-size: 20px;    
+background-color:rgb(75,141,248);
+border: 1px solid rgb(75,141,248);
+position: absolute;
+bottom: 0;
+right: 0;
+margin: 15px; 
+}
+#btn2 a{
+    text-decoration: none;    
+    color: white;  
+}
